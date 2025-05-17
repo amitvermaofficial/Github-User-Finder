@@ -11,10 +11,7 @@ function getUserData(username) {
     });
 }
 
-function decorateUserData(details) {
-    console.log(details);
-    
-
+function decorateUserData(details) {    
     var data = `<div class="flex flex-col md:flex-row gap-8">
                 <!-- Profile Image -->
                 <div class="flex-shrink-0">
